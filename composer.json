@@ -11,10 +11,13 @@
   ],
   "autoload": {
     "psr-4": {
-      "pascualmg\\assert\\": "src/"
+      "pascualmg\\assert\\": "src/",
+      "pascualmg\\assert\\test\\": "tests/"
     }
   },
-  "require": {},
+  "require": {
+    "php": "8.0"
+  },
   "require-dev": {
     "phpunit/phpunit": ">=9.5.2"
   }
