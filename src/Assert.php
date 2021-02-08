@@ -26,4 +26,12 @@ class Assert
             throw new $exceptionToLaunch($reason);
         };
     }
+    public static function compose(callable $a, callable $b) {
+        return static fn ($value) => $a($value) && $b($value);
+    }
+
+    public static function identity(mixed $a){
+        return null;
+    }
+
 }
