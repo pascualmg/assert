@@ -11,10 +11,15 @@
   ],
   "autoload": {
     "psr-4": {
-      "pascualmg\\assert\\": "src/",
-      "pascualmg\\assert\\test\\": "tests/"
+      "Pascualmg\\assert\\": "src/"
     }
   },
+  "autoload-dev": {
+    "psr-4": {
+      "Pascualmg\\assert\\test\\": "tests/"
+    }
+  },
+
   "require": {
     "php": ">=8.0.0"
   },

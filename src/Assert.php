@@ -1,7 +1,7 @@
 <?php
 
 
-namespace pascualmg\assert;
+namespace Pascualmg\assert;
 
 
 use InvalidArgumentException;

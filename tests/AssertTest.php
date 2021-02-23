@@ -1,8 +1,8 @@
 <?php
 
-namespace pascualmg\assert\test;
+namespace Pascualmg\assert\test;
 
-use pascualmg\assert\Assert;
+use Pascualmg\assert\Assert;
 use pascualmg\assert\Asserts\Integer;
 use pascualmg\assert\Asserts\IsType;
 use PHPUnit\Framework\TestCase;

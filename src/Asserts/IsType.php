@@ -1,7 +1,7 @@
 <?php
 
 
-namespace pascualmg\assert\Asserts;
+namespace Pascualmg\assert\Asserts;
 
 
 class IsType

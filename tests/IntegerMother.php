@@ -1,6 +1,6 @@
 <?php
 
-namespace pascualmg\assert\test;
+namespace Pascualmg\assert\test;
 
 class IntegerMother
 {
