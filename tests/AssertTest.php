@@ -3,8 +3,8 @@
 namespace Pascualmg\assert\test;
 
 use Pascualmg\assert\Assert;
-use pascualmg\assert\Asserts\Integer;
-use pascualmg\assert\Asserts\IsType;
+use Pascualmg\assert\Asserts\Integer;
+use Pascualmg\assert\Asserts\IsType;
 use PHPUnit\Framework\TestCase;
 
 class AssertTest extends TestCase
