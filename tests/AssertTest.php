@@ -60,11 +60,11 @@ class AssertTest extends TestCase
         );
     }
 
-    public function test_compose()
+    public function test_both_are()
     {
-        $isMoreThan23IsLessThan55AndIsMeaningOfLiveAndIsInteger = Assert::compose(
-            Assert::compose(Integer::isMoreThan(23), Integer::isMeaningOfLive()),
-            Assert::compose(Integer::isLessThan(55), IsType::integer())
+        $isMoreThan23IsLessThan55AndIsMeaningOfLiveAndIsInteger = Assert::bothAre(
+            Assert::bothAre(Integer::isMoreThan(23), Integer::isMeaningOfLive()),
+            Assert::bothAre(Integer::isLessThan(55), IsType::integer())
         );
 
         $this->expectNotToPerformAssertions();
